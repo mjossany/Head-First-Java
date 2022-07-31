@@ -1,3 +1,4 @@
+package Dog;
 public class Dog {
   int size;
   String breed;
@@ -5,5 +6,6 @@ public class Dog {
 
   void bark() {
     System.out.println("Ruff! Ruff!");
+    System.out.println(size);
   }
 }
